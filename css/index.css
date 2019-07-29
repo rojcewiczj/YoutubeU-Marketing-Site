@@ -5,10 +5,23 @@
 body {
   margin: 0 30%;
   width: 900px;
+  height: auto;
 }
 .top-container {
   display: flex;
+  height: 200px;
 }
 .top-container .top-image {
-  width: 40%;
+  width: 41%;
+}
+.main-container {
+  display: flex;
+  height: 400px;
+  justify-content: space-between;
+}
+.main-container .benefits-img {
+  height: 200px;
+}
+.main-container .benefits {
+  width: 30%;
 }
