@@ -20,30 +20,61 @@
 }
 body {
   margin: 0 auto;
-  width: 900px;
+  width: 45%;
   height: auto;
+}
+@media (max-width: 1000px) {
+  body {
+    width: 98%;
+  }
 }
 .top-container {
   display: flex;
-  height: 200px;
+  height: 180px;
   margin: 10px 0px;
 }
 .top-container .top-image {
   width: 41%;
+}
+@media (max-width: 500px) {
+  .top-container .top-image {
+    display: none;
+  }
 }
 .top-container .top-description {
   margin: 0 0 0 10px;
 }
 .main-container {
   display: flex;
-  height: 400px;
+  height: auto;
   justify-content: space-between;
 }
 .main-container .benefits-img {
   height: 200px;
 }
+@media (max-width: 500px) {
+  .main-container .benefits-img {
+    width: 150%;
+  }
+}
+@media (max-width: 500px) {
+  .main-container .benefits-description {
+    width: 170%;
+  }
+}
 .main-container .benefits {
   width: 30%;
+}
+@media (max-width: 500px) {
+  .main-container .benefits {
+    display: flex;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .main-container {
+    flex-direction: column;
+  }
 }
 .bottom-container {
   padding: 40px 0 0 0;
@@ -53,6 +84,9 @@ body {
   height: 180px;
 }
 .bottom-container .log-on {
+  text-align: center;
+  width: 100px;
+  height: auto;
   margin: -20px 0 20px 0;
 }
 .bottom-container .contact {
@@ -75,17 +109,39 @@ footer {
 .main-container1 {
   display: flex;
   flex-direction: column;
+  width: 100%;
   margin: 20px 0;
 }
 .main-container1 .member {
   margin: 15px 20px;
   width: 95%;
+  height: auto;
   display: flex;
 }
 .main-container1 .member .member-img {
   width: 15%;
 }
+@media (max-width: 500px) {
+  .main-container1 .member .member-img {
+    width: 35%;
+    height: 120px;
+    margin: 10px 0 0 0 ;
+  }
+}
 .main-container1 .member .member-description {
   margin: 0 0 0 10px;
   width: 80%;
+}
+@media (max-width: 500px) {
+  .main-container1 .member .member-description {
+    margin: 20px 0 0px 0;
+  }
+}
+@media (max-width: 500px) {
+  .main-container1 .member {
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+    width: 90%;
+  }
 }
