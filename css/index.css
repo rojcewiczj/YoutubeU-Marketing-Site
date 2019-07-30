@@ -150,6 +150,10 @@ footer p {
   font-size: 1rem;
   border-radius: 6px;
 }
+.navigation nav a:hover {
+  background-color: white;
+  color: black;
+}
 * {
   box-sizing: border-box;
 }
@@ -245,6 +249,10 @@ body {
   height: 40px;
   font-size: 1rem;
   border-radius: 6px;
+}
+.bottom-container .log-on a:hover {
+  background-color: white;
+  color: black;
 }
 footer {
   display: flex;
