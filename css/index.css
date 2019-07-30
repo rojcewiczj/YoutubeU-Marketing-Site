@@ -13,7 +13,7 @@ body {
   background-color: white;
 }
 h1 {
-  background-color: white;
+  text-shadow: 0 1px 3px rgba(104, 99, 99, 0.836);
 }
 nav {
   background-color: white;
@@ -73,13 +73,19 @@ footer {
 footer p {
   background-color: white;
 }
-.navigation {
-  border-bottom: 2px solid #971212;
-}
 .benefits-img img {
   max-height: 100%;
   max-width: 100%;
   border-radius: 10%;
+}
+.member-img img {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 10%;
+}
+.icon img {
+  max-height: 100%;
+  max-width: 100%;
 }
 .navigation {
   display: flex;
@@ -87,11 +93,29 @@ footer p {
   align-items: center;
   height: 150px;
 }
-.navigation h1 {
+.navigation .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100px;
+}
+.navigation .logo .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 25px 0px ;
+}
+.navigation .logo h1 {
   margin: 25px 0px ;
   font-size: 2.2rem;
-  width: 60%;
+  width: 180px;
+  height: 80px;
   text-align: center;
+  border-radius: 15%;
 }
 .navigation nav {
   display: flex;
@@ -127,7 +151,7 @@ body {
 }
 .top-container {
   display: flex;
-  height: 200px;
+  height: auto;
   margin: 0;
   padding: 10px 10px;
   text-align: center;
@@ -140,7 +164,7 @@ body {
   padding: 0 40px;
 }
 .top-container .top-description h2 {
-  width: 80%;
+  width: 50%;
   text-align: center;
 }
 .top-container .top-description p {
@@ -215,29 +239,15 @@ body {
 .bottom-container ul {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0 0 0;
+  margin: 0px 0 0 0;
 }
 footer {
-  display: block;
-  text-align: center;
-  font-size: 0.8rem;
-}
-.top-container1 {
-  height: 200px;
-}
-.top-description1 {
-  margin: 0 20px;
   display: flex;
-  flex-direction: column;
+  font-size: 0.8rem;
+  height: 80px;
   align-items: center;
-}
-.top-description1 h2 {
-  width: 80%;
-  text-align: center;
-}
-.top-description1 p {
-  text-align: center;
-  font-size: 1.2rem;
+  justify-content: space-between;
+  font-weight: bold;
 }
 .main-container1 {
   display: flex;
@@ -252,7 +262,6 @@ footer {
   display: flex;
 }
 .main-container1 .member .member-img {
-  border: 2px solid gray;
   width: 15%;
 }
 @media (max-width: 500px) {
@@ -270,6 +279,9 @@ footer {
   .main-container1 .member .member-description {
     margin: 20px 0 0px 0;
   }
+}
+.main-container1 .member .member-description h3 {
+  width: 90%;
 }
 @media (max-width: 500px) {
   .main-container1 .member {
