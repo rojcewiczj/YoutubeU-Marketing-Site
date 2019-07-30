@@ -2,12 +2,12 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-   
+    border: 2px solid white; 
     
 }
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 .navigation {
     background-color: white;
@@ -21,16 +21,31 @@ nav {
 }
 .top-container {
     background-color: white;
+    border-bottom: 4px solid black;
 }
 .top-description {
     background-color: white;
+ 
+}
+.top-description p {
+    border-right: 1px solid rgba(167, 164, 164, 0.432);
+    border-left: 1px solid rgba(167, 164, 164, 0.432);
+    padding: 0 10px;
 }
 .main-container{
     background-color: white;
 
 }
+.benefits-description p {
+    border-right: 1px solid rgba(167, 164, 164, 0.432);
+    border-left: 1px solid rgba(167, 164, 164, 0.432);
+    padding: 0 5px;
+}
+
+
 .bottom-container {
     background-color: white;
+    
 
 }
 footer {
@@ -42,4 +57,25 @@ footer {
 }
 .main-container1 {
     background-color: white;
+    border-top: 4px solid black;
+    padding: 10px 0px;
 }
+.member{
+    border-bottom: 3px solid black;
+    padding: 10px 0px;
+}
+
+    h3{
+        border-bottom:  @borderColor;
+    }
+    h2 {
+        border-bottom:  @borderColor;
+    }
+    
+  footer {
+      border-top: @borderColor;
+  }
+
+  .navigation{
+      border-bottom: @borderColor;
+  }
