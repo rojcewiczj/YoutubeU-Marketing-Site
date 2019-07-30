@@ -1,3 +1,43 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: black;
+}
+.navigation {
+  background-color: white;
+}
+h1 {
+  background-color: white;
+}
+nav {
+  background-color: white;
+}
+.top-container {
+  background-color: white;
+}
+.top-description {
+  background-color: white;
+}
+.main-container {
+  background-color: white;
+}
+.bottom-container {
+  background-color: white;
+}
+footer {
+  background-color: white;
+}
+.top-container1 {
+  background-color: white;
+}
+.main-container1 {
+  background-color: white;
+}
 .navigation {
   display: flex;
   flex-direction: column;
@@ -13,6 +53,19 @@
   justify-content: space-between;
   width: 80%;
   font-size: 1.2rem;
+}
+.navigation nav a {
+  display: block;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 6px;
 }
 * {
   box-sizing: border-box;
@@ -30,8 +83,9 @@ body {
 }
 .top-container {
   display: flex;
-  height: 180px;
-  margin: 10px 0px;
+  height: 200px;
+  margin: 0;
+  padding: 10px 0;
 }
 .top-container .top-image {
   width: 41%;
@@ -85,9 +139,20 @@ body {
 }
 .bottom-container .log-on {
   text-align: center;
-  width: 100px;
-  height: auto;
   margin: -20px 0 20px 0;
+}
+.bottom-container .log-on a {
+  display: block;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 6px;
 }
 .bottom-container .contact {
   width: 90%;
@@ -110,7 +175,7 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 20px 0;
+  margin: 0;
 }
 .main-container1 .member {
   margin: 15px 20px;
