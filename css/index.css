@@ -302,7 +302,7 @@ footer div {
 @media (max-width: 500px) {
   .main-container1 .member .member-img {
     width: 35%;
-    height: 120px;
+    height: 150px;
     margin: 10px 0 0 0 ;
   }
 }
@@ -322,7 +322,7 @@ footer div {
   .main-container1 .member {
     flex-direction: column;
     align-items: center;
-    height: 280px;
+    height: 350px;
     width: 90%;
   }
 }
