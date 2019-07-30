@@ -19,7 +19,7 @@ nav {
   background-color: white;
 }
 .top-container {
-  background-color: white;
+  background-color: #e0e0e0;
   border-bottom: 4px solid black;
 }
 .top-description {
@@ -47,6 +47,10 @@ footer {
 .top-container1 {
   background-color: white;
 }
+.top-container1 p {
+  border-right: 1px solid rgba(167, 164, 164, 0.432);
+  border-left: 1px solid rgba(167, 164, 164, 0.432);
+}
 .main-container1 {
   background-color: white;
   border-top: 4px solid black;
@@ -57,16 +61,25 @@ footer {
   padding: 10px 0px;
 }
 h3 {
-  border-bottom: 1px solid #971212;
+  border-bottom: 2px solid #971212;
 }
 h2 {
-  border-bottom: 1px solid #971212;
+  border-bottom: 2px solid #971212;
 }
 footer {
-  border-top: 1px solid #971212;
+  border-top: 2px solid #971212;
+  background-color: #e0e0e0;
+}
+footer p {
+  background-color: white;
 }
 .navigation {
-  border-bottom: 1px solid #971212;
+  border-bottom: 2px solid #971212;
+}
+.benefits-img img {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 10%;
 }
 .navigation {
   display: flex;
@@ -116,14 +129,15 @@ body {
   display: flex;
   height: 200px;
   margin: 0;
-  padding: 10px 0;
+  padding: 10px 10px;
   text-align: center;
 }
 .top-container .top-description {
   display: flex;
   flex-direction: column;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 0px;
   align-items: center;
+  padding: 0 40px;
 }
 .top-container .top-description h2 {
   width: 80%;
@@ -140,8 +154,10 @@ body {
   font-size: 1rem;
 }
 .main-container .benefits-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 200px;
-  border: 2px solid gray;
 }
 @media (max-width: 500px) {
   .main-container .benefits-img {

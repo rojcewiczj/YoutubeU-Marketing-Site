@@ -17,13 +17,14 @@ body {
     display: flex;
     height: 200px;
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 10px;
     text-align: center;
     .top-description{
         display: flex;
         flex-direction: column;
-        margin: 0 0 0 10px;
+        margin: 0 0 0 0px;
         align-items: center;
+        padding: 0 40px;
         h2{
             width: 80%;
             text-align: center;
@@ -42,8 +43,10 @@ body {
     padding: 10px 0px;
     font-size: 1.0rem;
       .benefits-img{
+          display: flex;
+          align-items: center;
+          justify-content: center;
           height: 200px;
-          border: 2px solid gray;
           @media @phone {
             width: 150%;
         }
